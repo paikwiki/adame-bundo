@@ -1,0 +1,9 @@
+/* text */
+.post-aside {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.post-aside p {
+  margin: 0;
+}

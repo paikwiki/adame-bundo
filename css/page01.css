@@ -1,0 +1,40 @@
+/* page01 - artworks list */
+.site-content li a {
+  display: block;
+}
+.thumb-image {
+  margin: 0 auto;
+  width: 80%;
+  height: 120px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-indent: -9999px;
+}
+.caption {
+  margin: 0.5rem 0;
+  text-align: center;
+  font-size: 0.8rem;
+}
+.artworks-list {
+  display: flex;
+  flex-wrap: wrap;
+  flex-flow: row wrap;
+  margin: 0;
+  padding-left: 0;
+}
+.artworks-list li {
+  padding: 1rem 0;
+  margin-right: 2%;
+  list-style: none;
+  width: 18%;
+}
+
+@media (max-width: 640px) {
+  .artworks-list li {
+    width: 31.3%;
+  }
+  .thumb-image {
+    height: 80px;
+  }
+}

@@ -1,0 +1,10 @@
+.site-content ul {
+  list-style: none;
+  padding-left: 0;
+}
+.site-content ul li {
+  line-height: 1.7rem;
+}
+.site-content .about-info {
+  margin-bottom: 2rem;
+}

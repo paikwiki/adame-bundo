@@ -1,0 +1,80 @@
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/earlyaccess/notosanskr.css);
+html {
+  font-size: 0.83rem;
+}
+h1 {
+  margin-bottom: 1.4em;
+}
+h2 {
+  margin-bottom: 1em;
+}
+p {
+  line-height: 1.8rem;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+h1, h2, h3, h4, h5, h6,
+p, span, pre, a, blockquote {
+  font-family: 'Noto Sans KR', 'Nanum Barun Gothic', 'Nanum Gothic', 'Malgun Gothic', 'Dotum', sans-serif;
+}
+h1, h2, h3, h4, h5 h6 {
+  font-size: 1rem;
+}
+h1, p, span, pre, a, blockquote {
+  color: #333333;
+}
+h2, h3, h4, h5, h6 {
+  color: #555555;
+}
+div, section, article, p,
+h1, h2, h3, h4, h5, h6, li {
+  box-sizing: border-box;
+}
+.global-wrapper {
+  margin: 0 auto;
+  padding: 1rem 2rem;
+  max-width: 980px;
+}
+/* site header */
+.site-header {
+  padding: 0.5rem 0;
+}
+.site-header h1 {
+  margin: 0;
+  line-height: 1.8rem;
+}
+.navigation ul {
+  display: flex;
+  margin: 1rem 0 0 0;
+  padding-left: 0;
+}
+.navigation ul li {
+  padding: 0.5rem;
+  padding-left: 0;
+  padding-top: 0;
+  list-style: none;
+}
+/* site content */
+.site-content {
+  position: relative;
+  margin: 1rem 1rem 4rem 1rem;
+}
+/* site footer */
+.site-footer {
+  padding: 0.2em;
+  bottom: 0;
+}
+.copyright {
+  text-align: center;
+  color: dimgray;
+  font-size: 0.8rem;
+}
+.copyright a {
+  text-decoration: underline;
+  color: dimgray;
+}
